@@ -38,8 +38,8 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.pug$/i,
-        loader: 'pug-loader',
+        test: /\.pug$/i, //html
+        loader: 'pug-loader', //html-loader
       },
       {
         test: /\.(c|sa|sc)ss$/i,
